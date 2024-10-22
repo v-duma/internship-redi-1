@@ -535,8 +535,7 @@ footer .logo {
 }
 
 .bg-wrapper.nikki-benz-feature {
-  background: url("../img/png-jpg/nikki-benz-skin3.jpg") center top no-repeat
-    #000;
+  background: url("../img/webp/nikki-benz-skin3.webp") center top no-repeat #000;
 }
 #container {
   background: url("../img/png-jpg/section.png") center top repeat-x #fff;
