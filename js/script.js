@@ -66,3 +66,10 @@ document.addEventListener("DOMContentLoaded", function () {
 document.querySelector(".close").addEventListener("click", function () {
   document.getElementById("social-media").style.display = "none";
 });
+
+if (/Mobi|Android/i.test(navigator.userAgent)) {
+  var viewport = document.createElement("meta");
+  viewport.name = "viewport";
+  viewport.content = "width=device-width, initial-scale=1.0";
+  document.getElementsByTagName("head")[0].appendChild(viewport);
+}
